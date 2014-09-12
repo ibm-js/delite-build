@@ -1,16 +1,16 @@
 {
   "name": "delite-build",
-  "version": "0.2.0-dev",
+  "version": "0.3.0-alpha",
   "dependencies": {
     "dojo": ">=1.9.1",
     "requirejs": "2.1.x",
     "requirejs-domready": "2.0.x",
     "requirejs-text": "2.0.x",
     "decor-build": "0.2.0-dev",
-    "dpointer-build": "0.1.x"
+    "dpointer-build": "0.3.x"
   },
   "devDependencies": {
-    "delite": "0.2.0-dev"
+    "delite": "0.3.0-alpha"
   },
   "ignore": [
     ".jshintrc",
