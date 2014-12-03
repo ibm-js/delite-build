@@ -27,14 +27,14 @@ Then install dependencies with bower (or manually from github if you prefer to):
 To load the minified layer you need to wrap your main `require` call with another `require`, requiring `"delite-build/layer"`. Then you should continue to
 refer to modules with `"delite/foo"`.
 
-For example, this:
-```
+For example, this code:
+```js
 require(["app/main", "delite/foo"], function() {
 	...
 });
 ```
 Becomes:
-```
+```js
 require(["delite-build/layer"], function() {
 	require(["app/main", "delite/foo"], function() {
 		...
