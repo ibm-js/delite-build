@@ -1,14 +1,14 @@
 {
   "name": "delite-build",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "dependencies": {
     "jquery": ">=2.1",
     "requirejs": "2.1.x",
-    "decor-build": "0.6.x",
+    "decor-build": "0.7.x",
     "dpointer-build": "0.5.x"
   },
   "devDependencies": {
-    "delite": "0.7.1"
+    "delite": "0.8.0"
   },
   "keywords": [
     "web-components",
